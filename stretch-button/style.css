@@ -1,0 +1,25 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  display: block;
+  color: red;
+  text-decoration: none;
+  border: 3px solid red;
+  font-size: 40px;
+  font-style: 400;
+  padding: 40px 80px;
+  letter-spacing: -2px;
+  font-family: sans-serif;
+  transition: all 1s;
+}
+
+a:hover {
+  font-weight: 900;
+  letter-spacing: 10px;
+  border: 7px solid red;
+}
