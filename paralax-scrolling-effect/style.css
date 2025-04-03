@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:400,500,800);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  outline: none;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 24vw;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 1em;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-attachment: fixed;
+}
+
+section p {
+  min-width: 800px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+section .content a {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  border: 2px solid #000;
+  color: #000;
+  margin-top: 20px;
+  text-transform: capitalize;
+}
+
+section:nth-child(1) h2 {
+  background-image: url(egypt.jpg);
+  background-size: cover;
+}
+
+section:nth-child(2) h2 {
+  background-image: url(paris.jpg);
+  background-size: cover;
+}
+
+section:nth-child(3) h2 {
+  background-image: url(new-york.webp);
+  background-size: cover;
+}
+
+section:nth-child(4) h2 {
+  background-image: url(dubai.webp);
+  background-size: cover;
+}
