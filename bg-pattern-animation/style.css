@@ -1,0 +1,16 @@
+.background {
+  height: 100vh;
+  background-image: url(bg.png);
+  background-position: 0 0;
+
+  animation: animated-pattern 15s linear infinite;
+}
+
+@keyframes animated-pattern {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 0 600px;
+  }
+}
